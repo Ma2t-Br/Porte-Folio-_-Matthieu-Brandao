@@ -227,47 +227,26 @@ img.project-image {
     margin-top: 1em;
 }
 
-.skill-level-bar-1 {
+#skill-level-bar {
     height: 100%;
-    width: 80%;
-    background-color: #3498db;
     border-radius: 5px;
 }
 
-.skill-level-bar-2 {
-    height: 100%;
-    width: 80%;
-    background-color: #3498db;
-    border-radius: 5px;
-}
+    .skill-card:hover #skill-level-bar {
+        scale: 1.1;
+    }
 
-.skill-level-bar-3 {
-    height: 100%;
-    width: 50%;
-    background-color: #3498db;
-    border-radius: 5px;
-}
+.skill-level-bar-1 { width: 80%; background-color: #3498db; }
 
-.skill-level-bar-4 {
-    height: 100%;
-    width: 30%;
-    background-color: #3498db;
-    border-radius: 5px;
-}
+.skill-level-bar-2 { width: 80%; background-color: #3498db; }
 
-.skill-level-bar-5 {
-    height: 100%;
-    width: 50%;
-    background-color: #006e16;
-    border-radius: 5px;
-}
+.skill-level-bar-3 { width: 50%; background-color: #3498db; }
 
-.skill-level-bar-6 {
-    height: 100%;
-    width: 50%;
-    background-color: #006e16;
-    border-radius: 5px;
-}
+.skill-level-bar-4 { width: 30%; background-color: #3498db; }
+
+.skill-level-bar-5 { width: 50%; background-color: #006e16; }
+
+.skill-level-bar-6 { width: 50%; background-color: #006e16; }
 
 .experience-container {
     display: flex;
