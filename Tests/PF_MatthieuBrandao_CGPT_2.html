@@ -2,7 +2,8 @@
 <html>
   <head>
     <title>Portfolio Matthieu Brandao</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="PF_MatthieuBrandao_CGPT_2.css">
+    <script src="script.js"></script>    
   </head>
   <body>
     <header>
@@ -42,12 +43,12 @@
             <div class="container">
                 <h2 class="section-title">Projets</h2>
                 <div class="projects-container">
-                    <div class="project-carousel-item">
+                    <div class="project-carousel-item" id="carousel" onclick="Click()">
                         <div class="project-card" id="card">
                             <img src="Sources/Images/Project/project4.jpg" alt="image du projet 4" class="project-image">
-                            <div class="project-info">
+                            <div class="project-info" id="info">
                             <h3 class="project-title">Park'In Here</h3>
-                            <p class="project-description"> Park'In Here est une application web développée en React qui vous permet de facilement trouver des places de stationnement 
+                            <p class="project-description" id="text1"> Park'In Here est une application web développée en React qui vous permet de facilement trouver des places de stationnement 
                                                             à proximité de votre emplacement actuel à Paris. Elle intègre une carte interactive qui affiche les places disponibles en 
                                                             temps réel, vous permettant de réserver une place en un clic et de vous y rendre immédiatement. Elle dispose également d'une 
                                                             fonctionnalité de signalement de places libres, permettant aux utilisateurs de signaler les places disponibles à d'autres utilisateurs.</br>
@@ -260,7 +261,7 @@
                         <div class="experience-card" id="card">
                             <img src="Sources/Logos/Logo - Maison_Seyssac.jpg" alt="Logo de l'association" class="experience-image">
                             <h3 class="experience-title">Vendeur</h3>
-                            <p class="experience-description">Vente de fruits et légumes chez un primeur haut-de-gamme. Ainsi que la gestion des stocks et le maintien du magasin.</p>
+                            <p class="experience-description">Vente de fruits et légumes chez un primeur haut-de-gamme, gestion des stocks et entretien du magasin (sécurité, propreté, présentation des étalages).</p>
                             <p class="experience-dates">2021-2022</p>
                         </div>
                     </div>

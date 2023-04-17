@@ -116,19 +116,13 @@ img.profile-picture {
     transition: 0.3s;
 }
 
-.project-carousel-item:hover {
-    width: 685px;
-    transition: 0.3s;
+#text1{
+    display: none;
 }
 
 .project-card {
     margin-bottom: 2em;
     height: 245px;
-    transition: 0.5s;
-}
-
-.project-card:hover {
-    height: 695px;
     transition: 0.5s;
 }
 
@@ -154,13 +148,11 @@ img.project-image {
     margin-top: 1em;
     color: #d2d2d2;
     display: none;
-    opacity: 0;
     transition: opacity 1s;
     transition-delay: 1s;
 }
 
 .project-carousel-item:hover .project-description {
-    opacity: 1;
     display: block;
     transition: opacity 1s;
     transition-delay: 1s;
@@ -170,10 +162,6 @@ img.project-image {
     opacity: 1;
     display: flex;
     transition: 0.3s;
-}
-
-.project-carousel-item:hover .project-info{
-    height: 348px;
 }
 
 .education-container {
