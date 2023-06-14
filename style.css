@@ -261,11 +261,19 @@ img.project-image {
 
 .skill-level-bar-3 { width: 50%; background-color: #3498db; }
 
-.skill-level-bar-4 { width: 30%; background-color: #3498db; }
+.skill-level-bar-4 { width: 50%; background-color: #3498db; }
 
 .skill-level-bar-5 { width: 50%; background-color: #006e16; }
 
 .skill-level-bar-6 { width: 50%; background-color: #006e16; }
+
+.skill-level-bar-7 { width: 20%; background-color: #3498db; }
+
+.skill-level-bar-8 { width: 30%; background-color: #3498db; }
+
+.skill-level-bar-9 { width: 50%; background-color: #3498db; }
+
+.skill-level-bar-10 { width: 80%; background-color: #3498db; }
 
 .experience-container {
     display: flex;
@@ -279,6 +287,7 @@ img.project-image {
 }
 
 .experience-card {
+    display: grid;
     width: auto;
     margin-bottom: 2em;
     height: 280px;
@@ -287,6 +296,7 @@ img.project-image {
 img.experience-image {
     width: auto;
     height: 50px;
+    margin: auto;
 }
 
 .experience-title {
@@ -500,3 +510,98 @@ button {
    button:hover .button-text {
     color: #fff;
    }
+
+@media screen and (max-width: 1000px) {
+    
+    header .logo {
+        width: 200px;
+    }
+
+        li.neumorphic-button{
+            display: none;
+        }
+
+        li.contact{
+            display: flex;
+            margin-right: 10px;
+            font-size: 30px;
+        }
+
+    .section-title {
+        font-size: 60px;
+    }
+
+    .about-container {
+        display: grid;
+    }
+
+        img.profile-picture{
+            width: 540px;
+        }
+
+        .about-text{
+            font-size: 30px;
+        }
+    
+    .project-carousel-item{
+        width: 420px;
+    }
+
+        .project-title{
+            font-size: 30px;
+        }
+
+        .project-card{
+            height: 420px;
+        }
+
+    .education-card{
+        margin: 20px auto;
+        width: 80%;
+    }
+
+        .education-title{
+            font-size: 40px;
+        }
+
+        .education-description{
+            font-size: 30px;
+        }
+        
+    .skill-card{
+        width: calc(50% - 1em);
+    }
+
+        .skill-title{
+            font-size: 30px;
+        }
+
+    .experience-carousel-item{
+        width: 450px;
+    }
+
+        .experience-card{
+            height: auto;
+        }
+
+            img.experience-image{
+                height: 120px;
+            }
+
+            .experience-title{
+                font-size: 35px;
+            }
+
+            .experience-description{
+                font-size: 20px;
+            }
+
+            .experience-dates{
+                font-size: 20px;
+            }
+
+    footer{
+        padding: 10px 0;
+        font-size: 30px
+    }
+}
